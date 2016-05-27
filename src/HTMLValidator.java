@@ -7,7 +7,7 @@ public class HTMLValidator {
 	private static String HTML;
     
     public static void main(String[] args) throws Exception {
-    	System.out.println("Enter ypur html string:");
+    	System.out.println("Enter your html string:");
     	Scanner input = new Scanner(System.in);
     	HTML = input.nextLine();
         parseWithJsoup();
